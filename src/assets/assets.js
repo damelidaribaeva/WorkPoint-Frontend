@@ -15,12 +15,12 @@ import info_icon from "./info_icon.svg";
 import upload_icon from "./upload_icon.png";
 import stripe_logo from "./stripe_logo.png";
 import razorpay_logo from "./razorpay_logo.png";
-import Private_office from "./Private_office.png";
-import Shared_desk from "./Shared_desk.png";
-import Meeting_room from "./Meeting_room.png";
-import For_women from "./For_women.png";
-import Open_lounge from "./Open_lounge.png";
-import Podcast_studio from "./Podcast_studio.png";
+import Private_office from "./types/Private_office.svg";
+import Shared_desk from "./types/Shared_desk.svg";
+import Meeting_room from "./types/Meeting_room.svg";
+import For_women from "./types/For_women.svg";
+import Open_lounge from "./types/Open_lounge.svg";
+import Podcast_studio from "./types/Podcast_studio.svg";
 
 import cowork1 from "./coworks/cowork1.png";
 import cowork2 from "./coworks/cowork2.png";
@@ -58,29 +58,29 @@ export const assets = {
   razorpay_logo,
 };
 
-export const specialityData = [
+export const typeData = [
   {
-    speciality: "Private Office",
+    type: "Private Office",
     image: Private_office,
   },
   {
-    speciality: "Shared Desk",
+    type: "Shared Desk",
     image: Shared_desk,
   },
   {
-    speciality: "Meeting Room",
+    type: "Meeting Room",
     image: Meeting_room,
   },
   {
-    speciality: "For Women",
+    type: "For Women",
     image: For_women,
   },
   {
-    speciality: "Open Lounge",
+    type: "Open Lounge",
     image: Open_lounge,
   },
   {
-    speciality: "Podcast/Recording Studio",
+    type: "Podcast Studio",
     image: Podcast_studio,
   },
 ];
@@ -90,7 +90,7 @@ export const coworkingSpaces = [
     _id: "cowork1",
     name: "WeWork Downtown",
     image: cowork1,
-    speciality: "Private Office",
+    type: "Private Office",
     capacity: "1-4 People",
     experience: "Established in 2018",
     about:
@@ -105,7 +105,7 @@ export const coworkingSpaces = [
     _id: "cowork2",
     name: "Cozy Shared Space",
     image: cowork2,
-    speciality: "Shared Desk",
+    type: "Shared Desk",
     capacity: "10-20 People",
     experience: "Established in 2020",
     about:
@@ -120,7 +120,7 @@ export const coworkingSpaces = [
     _id: "cowork3",
     name: "The Executive Suite",
     image: cowork3,
-    speciality: "Private Office",
+    type: "Private Office",
     capacity: "1-6 People",
     experience: "Established in 2015",
     about:
@@ -135,7 +135,7 @@ export const coworkingSpaces = [
     _id: "cowork4",
     name: "Startup Hub",
     image: cowork4,
-    speciality: "Hot Desk",
+    type: "Hot Desk",
     capacity: "Flexible",
     experience: "Established in 2019",
     about:
@@ -150,7 +150,7 @@ export const coworkingSpaces = [
     _id: "cowork5",
     name: "Creative Loft",
     image: cowork5,
-    speciality: "Event Space",
+    type: "Event Space",
     capacity: "Up to 50 People",
     experience: "Established in 2017",
     about:
@@ -165,7 +165,7 @@ export const coworkingSpaces = [
     _id: "cowork6",
     name: "Freelancer's Den",
     image: cowork6,
-    speciality: "Dedicated Desk",
+    type: "Dedicated Desk",
     capacity: "1 Person",
     experience: "Established in 2021",
     about:
@@ -180,7 +180,7 @@ export const coworkingSpaces = [
     _id: "cowork7",
     name: "Collaboration Hub",
     image: cowork7,
-    speciality: "Meeting Room",
+    type: "Meeting Room",
     capacity: "Up to 10 People",
     experience: "Established in 2016",
     about:
@@ -195,7 +195,7 @@ export const coworkingSpaces = [
     _id: "cowork8",
     name: "Remote Work Haven",
     image: cowork8,
-    speciality: "Virtual Office",
+    type: "Virtual Office",
     capacity: "N/A",
     experience: "Established in 2022",
     about:
@@ -210,7 +210,7 @@ export const coworkingSpaces = [
     _id: "cowork9",
     name: "Luxury Business Lounge",
     image: cowork9,
-    speciality: "Private Office",
+    type: "Private Office",
     capacity: "1-5 People",
     experience: "Established in 2014",
     about:
@@ -225,7 +225,7 @@ export const coworkingSpaces = [
     _id: "cowork10",
     name: "Nomad Hub",
     image: cowork10,
-    speciality: "Hot Desk",
+    type: "Hot Desk",
     capacity: "Unlimited",
     experience: "Established in 2023",
     about:
@@ -240,7 +240,7 @@ export const coworkingSpaces = [
     _id: "cowork11",
     name: "Hacker House",
     image: cowork11,
-    speciality: "Shared Desk",
+    type: "Shared Desk",
     capacity: "Up to 30 People",
     experience: "Established in 2019",
     about:
@@ -255,7 +255,7 @@ export const coworkingSpaces = [
     _id: "cowork12",
     name: "CoWorking for Creatives",
     image: cowork12,
-    speciality: "Open Lounge",
+    type: "Open Lounge",
     capacity: "20-40 People",
     experience: "Established in 2021",
     about:
@@ -270,7 +270,7 @@ export const coworkingSpaces = [
     _id: "cowork13",
     name: "Green Space Coworking",
     image: cowork13,
-    speciality: "Eco-Friendly Workspace",
+    type: "Eco-Friendly Workspace",
     capacity: "Up to 50 People",
     experience: "Established in 2018",
     about:
@@ -285,7 +285,7 @@ export const coworkingSpaces = [
     _id: "cowork14",
     name: "Quiet Focus Room",
     image: cowork14,
-    speciality: "Focus Room",
+    type: "Focus Room",
     capacity: "1-2 People",
     experience: "Established in 2022",
     about:
@@ -300,7 +300,7 @@ export const coworkingSpaces = [
     _id: "cowork15",
     name: "Women-Led Coworking",
     image: cowork15,
-    speciality: "Community Space",
+    type: "Community Space",
     capacity: "Up to 30 People",
     experience: "Established in 2020",
     about:
