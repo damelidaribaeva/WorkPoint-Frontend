@@ -135,7 +135,7 @@ export const coworkingSpaces = [
     _id: "cowork4",
     name: "Startup Hub",
     image: cowork4,
-    type: "Hot Desk",
+    type: "Shared Desk",
     capacity: "Flexible",
     experience: "Established in 2019",
     about:
@@ -165,7 +165,7 @@ export const coworkingSpaces = [
     _id: "cowork6",
     name: "Freelancer's Den",
     image: cowork6,
-    type: "Dedicated Desk",
+    type: "Private Office",
     capacity: "1 Person",
     experience: "Established in 2021",
     about:
@@ -195,7 +195,7 @@ export const coworkingSpaces = [
     _id: "cowork8",
     name: "Remote Work Haven",
     image: cowork8,
-    type: "Virtual Office",
+    type: "Podcast Studio",
     capacity: "N/A",
     experience: "Established in 2022",
     about:
@@ -208,9 +208,9 @@ export const coworkingSpaces = [
   },
   {
     _id: "cowork9",
-    name: "Luxury Business Lounge",
+    name: "Luxury Business",
     image: cowork9,
-    type: "Private Office",
+    type: "Podcast Studio",
     capacity: "1-5 People",
     experience: "Established in 2014",
     about:
@@ -225,7 +225,7 @@ export const coworkingSpaces = [
     _id: "cowork10",
     name: "Nomad Hub",
     image: cowork10,
-    type: "Hot Desk",
+    type: "Shared Desk",
     capacity: "Unlimited",
     experience: "Established in 2023",
     about:
@@ -240,7 +240,7 @@ export const coworkingSpaces = [
     _id: "cowork11",
     name: "Hacker House",
     image: cowork11,
-    type: "Shared Desk",
+    type: "For Women",
     capacity: "Up to 30 People",
     experience: "Established in 2019",
     about:
@@ -270,7 +270,7 @@ export const coworkingSpaces = [
     _id: "cowork13",
     name: "Green Space Coworking",
     image: cowork13,
-    type: "Eco-Friendly Workspace",
+    type: "Event Space",
     capacity: "Up to 50 People",
     experience: "Established in 2018",
     about:
@@ -285,7 +285,7 @@ export const coworkingSpaces = [
     _id: "cowork14",
     name: "Quiet Focus Room",
     image: cowork14,
-    type: "Focus Room",
+    type: "Private Office",
     capacity: "1-2 People",
     experience: "Established in 2022",
     about:
@@ -300,7 +300,7 @@ export const coworkingSpaces = [
     _id: "cowork15",
     name: "Women-Led Coworking",
     image: cowork15,
-    type: "Community Space",
+    type: "Open Lounge",
     capacity: "Up to 30 People",
     experience: "Established in 2020",
     about:
